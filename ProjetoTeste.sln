@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Dominio", "03 - Domini
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infraestrutura", "04 - Infraestrutura", "{8A55EDCA-404B-454C-A00D-8B2BF18AA6C4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Apresentacao", "01 - Apresentacao", "{FD7A92D2-673D-4697-9973-AD856DC1AE28}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Application", "01 - Application", "{FD7A92D2-673D-4697-9973-AD856DC1AE28}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
