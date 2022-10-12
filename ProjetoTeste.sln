@@ -11,9 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infra", "04 - Infra", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Application", "01 - Application", "{FD7A92D2-673D-4697-9973-AD856DC1AE28}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{31526ECA-8427-4010-9180-EAC221C2E4F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrosCutting", "4.2 - CrosCutting", "{5FCC7388-FD41-4D84-B2BF-10AB10312818}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31526ECA-8427-4010-9180-EAC221C2E4F5} = {8A55EDCA-404B-454C-A00D-8B2BF18AA6C4}
+		{5FCC7388-FD41-4D84-B2BF-10AB10312818} = {8A55EDCA-404B-454C-A00D-8B2BF18AA6C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C355384-14AE-47EE-879E-B4430B2768C2}
