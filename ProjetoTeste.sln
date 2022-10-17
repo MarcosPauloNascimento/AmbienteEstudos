@@ -3,17 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{F5B07FDA-FD3B-4C7C-8225-F6DA8B58AB1A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{F5B07FDA-FD3B-4C7C-8225-F6DA8B58AB1A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Service", "03 - Service", "{CB2C191A-3B9B-45F2-854E-A1EABD402BD3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{CB2C191A-3B9B-45F2-854E-A1EABD402BD3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infra", "04 - Infra", "{8A55EDCA-404B-454C-A00D-8B2BF18AA6C4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Services", "3 - Services", "{8A55EDCA-404B-454C-A00D-8B2BF18AA6C4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Application", "01 - Application", "{FD7A92D2-673D-4697-9973-AD856DC1AE28}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Prasentation", "0 - Prasentation", "{FD7A92D2-673D-4697-9973-AD856DC1AE28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infraestructure", "4 - Infraestructure", "{E415E791-0A7A-4A0D-8446-86DE109BC1B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{779305C6-8BFB-425E-91CC-674358E6FA3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{967CAD13-AD4C-4787-A917-368513F7CF31}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{779305C6-8BFB-425E-91CC-674358E6FA3B} = {E415E791-0A7A-4A0D-8446-86DE109BC1B2}
+		{967CAD13-AD4C-4787-A917-368513F7CF31} = {E415E791-0A7A-4A0D-8446-86DE109BC1B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C355384-14AE-47EE-879E-B4430B2768C2}
